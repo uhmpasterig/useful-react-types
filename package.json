@@ -1,0 +1,38 @@
+{
+  "name": "usefull-react-types",
+  "version": "1.0.0",
+  "description": "Just a collection of some useful types for react that make your life easier. Contact me / Commit if you have any suggestions or improvements.",
+  "author": "Uhmpasterig",
+  "homepage": "https://test.com/",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uhmpasterig/usefull-react-types"
+  },
+  "bugs": {
+    "url": "https://github.com/uhmpasterig/usefull-react-types/issues"
+  },
+  "main": "",
+  "types": "src/index.d.ts",
+  "keywords": [
+    "react",
+    "typescript",
+    "types"
+  ],
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.61"
+  }
+}
