@@ -13,7 +13,7 @@
     "url": "https://github.com/uhmpasterig/usefull-react-types/issues"
   },
   "main": "",
-  "types": "src/index.d.ts",
+  "types": "index.d.ts",
   "keywords": [
     "react",
     "typescript",
@@ -21,7 +21,7 @@
   ],
   "exports": {
     ".": {
-      "types": "./src/index.d.ts"
+      "types": "./index.d.ts"
     },
     "./package.json": "./package.json"
   },
