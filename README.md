@@ -41,7 +41,11 @@ type ExampleComponentProps = {
   example: string;
 } & Props.ForceChildren & Props.HasClassName;
 
-export const ExampleComponent = ({example, children, className}: Props.HasChildren & Props)
+export const ExampleComponent = ({example, children, className}: Props.HasChildren & Props) => {
+  return(
+    <h1>Test</h1>
+  )
+}
 ```
 
 OR
@@ -49,7 +53,11 @@ OR
 ```typescript
 import { Props } from 'useful-react-types';
 
-export const ExampleComponent = ({children, className}: Props.HasChildrenAndClassName)
+export const ExampleComponent = ({children, className}: Props.HasChildrenAndClassName) => {
+  return(
+    <h1>Test</h1>
+  )
+}
 ```
 
 ## Contributing
