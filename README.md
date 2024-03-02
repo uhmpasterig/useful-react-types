@@ -49,7 +49,6 @@ OR
 ```typescript
 import { Props } from 'useful-react-types';
 
-
 export const ExampleComponent = ({children, className}: Props.HasChildrenAndClassName)
 ```
 
