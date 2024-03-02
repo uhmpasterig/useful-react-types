@@ -41,7 +41,7 @@ type ExampleComponentProps = {
   example: string;
 } & Props.ForceChildren & Props.HasClassName;
 
-export const ExampleComponent = ({example, children, className}: Props.HasChildren & Props) => {
+export const ExampleComponent = ({example, children, className}: ExampleComponentProps) => {
   return(
     <h1>Test</h1>
   )
